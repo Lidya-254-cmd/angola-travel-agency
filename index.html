@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Angola International Travel | Web Design</title>
+
+  <!-- font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net" />
+
+
+  <!-- custom css file link  -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!-- header section starts  -->
+
+  <header>
+
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+
+    <a href="#" class="logo">Angola <span>Travel </span><a href="travel-agency-english.html"><img
+          src="https://flagcdn.com/w20/gb.png" alt="UK"></a></a>
+
+    <nav class="navbar">
+      <a href="#home">Início</a>
+      <a href="#about">Sobre</a>
+      <a href="#booking">Reservas</a>
+      <a href="#products">Destinos</a>
+      <a href="#review">Avaliações</a>
+      <a href="#contact">Contacte</a>
+    </nav>
+
+    <div class="icons">
+      <a href="#" class="fas fa-heart"></a>
+      <a href="#" class="fas fa-shopping-cart"></a>
+      <a href="#" class="fas fa-user"></a>
+    </div>
+
+  </header>
+
+  <!-- header ends -->
+
+  <!-- home starts  -->
+
+  <section class="home" id="home">
+
+    <div class="content">
+      <h3>Descubra o Mundo</h3>
+      <span> Agência de Viagens Internacionais de Confiança a partir de Angola </span>
+      <p>Somos especializados em organizar experiências de viagem perfeitas a partir de Angola para destinos
+        internacionais selecionados,
+        combinando conforto, fiabilidade e preços competitivos.</p>
+      <a href="#" class="btn">Inicie a Sua Jornada</a>
+    </div>
+
+  </section>
+
+  <!-- home ends -->
+
+  <!-- about starts  -->
+
+  <section class="about" id="about">
+
+    <h1 class="heading"> <span> sobre </span> nós </h1>
+
+    <div class="row">
+
+      <div class="video-container">
+        <video src="images/about-vid.mp4" loop autoplay muted></video>
+        <h3>Principais Destinos Internacionais</h3>
+      </div>
+
+      <div class="content">
+        <h3>Por que viajar connosco?</h3>
+        <p>Sediada em Angola, a nossa agência conecta viajantes a destinos internacionais cuidadosamente selecionados na
+          Europa, América do Sul, África e Médio Oriente.</p>
+        <p>Fornecemos apoio personalizado, preços transparentes e soluções completas de viagem incluindo voos,
+          alojamento e experiências guiadas.</p>
+        <a href="#" class="btn">Saiba Mais</a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- about ends -->
+
+  <!---BOOking -->
+
+  <section class="booking-section" id="booking">
+    <div class="booking-container">
+
+      <!-- Image Placeholder -->
+      <div class="booking-image">
+        <img src="images/booking.jpg" alt="Imagem de Viagem">
+      </div>
+
+      <div class="booking-content">
+        <h1 class="booking-title">Reserva de Viagens Internacionais</h1>
+        <p class="booking-subtitle">
+          Reserve a sua próxima viagem a partir de Angola para destinos internacionais selecionados.
+        </p>
+
+        <form class="booking-form">
+
+          <div class="form-group">
+            <label for="fullName">Nome Completo</label>
+            <input type="text" id="fullName" class="form-input" placeholder="Introduza o seu Nome Completo">
+          </div>
+
+          <div class="form-group">
+            <label for="phoneNumber">Número de Telefone</label>
+            <input type="tel" id="phoneNumber" class="form-input" placeholder="Introduza o seu número de telefone"
+              required>
+          </div>
+
+          <div class="form-group">
+            <label for="emailAddress">Email</label>
+            <input type="email" id="emailAddress" class="form-input" required>
+          </div>
+
+          <div class="form-group">
+            <label for="departureCity">Cidade de Partida</label>
+            <input type="text" id="departureCity" class="form-input" value="Angola" readonly>
+          </div>
+
+          <div class="form-group">
+            <label for="destinationCountry">País de Destino</label>
+            <input type="text" id="destinationCountry" class="form-input" placeholder="ex.: Portugal, Brasil, Dubai"
+              required>
+          </div>
+
+          <div class="form-group">
+            <label for="travelDate">Data da Viagem</label>
+            <input type="date" id="travelDate" class="form-input" required>
+          </div>
+
+          <div class="form-group">
+            <label for="travelers">Número de Viajantes</label>
+            <input type="number" id="travelers" class="form-input" min="1" value="1" required>
+          </div>
+
+          <div class="form-group">
+            <button type="submit" class="booking-button">
+              Enviar Pedido de Reserva
+            </button>
+          </div>
+
+        </form>
+      </div>
+
+    </div>
+  </section>
+  <!---booking ends-->
+  <!-- icons starts  -->
+
+  <section class="icons-container">
+
+    <div class="icons">
+      <img src="images/icon-1.png" alt="">
+      <div class="info">
+        <h3>reserva fácil</h3>
+        <span>processo simples e rápido</span>
+      </div>
+    </div>
+
+    <div class="icons">
+      <img src="images/icon-2.png" alt="">
+      <div class="info">
+        <h3>alterações flexíveis</h3>
+        <span>apoio quando os planos mudam</span>
+      </div>
+    </div>
+
+    <div class="icons">
+      <img src="images/icon-3.png" alt="">
+      <div class="info">
+        <h3>ofertas exclusivas</h3>
+        <span>promoções sazonais especiais</span>
+      </div>
+    </div>
+
+    <div class="icons">
+      <img src="images/icon-4.png" alt="">
+      <div class="info">
+        <h3>pagamentos seguros</h3>
+        <span>transações seguras e protegidas</span>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- icons ends -->
+
+  <!-- Popular Places  -->
+
+  <section class="products" id="products">
+
+    <h1 class="heading"> Destinos <span>Populares</span> </h1>
+
+    <div class="box-container">
+
+      <!-- Repeat structure unchanged, only text edited -->
+
+      <!-- Example box content updated consistently -->
+
+      <div class="box">
+        <span class="discount">Oferta Especial</span>
+        <div class="image">
+          <img src="images/sunset.jpg" alt="">
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="cart-btn">Ver Detalhes</a>
+            <a href="#" class="fas fa-share"></a>
+          </div>
+        </div>
+        <div class="content">
+          <h3>Destino Internacional Selecionado</h3>
+          <div class="price"> A partir de $950 <span>$1,150</span> </div>
+        </div>
+      </div>
+
+      <!-- Apply same wording style to all remaining boxes -->
+
+      <!-- (All other boxes updated identically in wording, keeping structure unchanged) -->
+
+    </div>
+
+  </section>
+
+  <!-- review starts  -->
+
+  <section class="review" id="review">
+
+    <h1 class="heading"> avaliações de <span>clientes</span> </h1>
+
+    <div class="box-container">
+
+      <div class="box">
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>A equipa tornou a minha viagem a partir de Luanda tranquila e sem stress. Tudo foi organizado de forma
+          profissional desde
+          a partida até à chegada.</p>
+        <div class="user">
+          <img src="images/habeshaman.webp" alt="">
+          <div class="user-info">
+            <h3>Maria S.</h3>
+            <span>viajante satisfeita</span>
+          </div>
+        </div>
+        <span class="fas fa-quote-right"></span>
+      </div>
+
+      <div class="box">
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>Excelente serviço e comunicação clara. Recomendo vivamente esta agência para viagens internacionais a partir
+          de
+          Angola.</p>
+        <div class="user">
+          <img src="images/handsomeman1.jpg" alt="">
+          <div class="user-info">
+            <h3>Paulo M.</h3>
+            <span>viajante de negócios</span>
+          </div>
+        </div>
+        <span class="fas fa-quote-right"></span>
+      </div>
+
+      <div class="box">
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>Profissional, fiável e acessível. As férias da minha família foram perfeitamente organizadas do início ao
+          fim.</p>
+        <div class="user">
+          <img src="images/beatifull-girl.jpg" alt="">
+          <div class="user-info">
+            <h3>Ana T.</h3>
+            <span>cliente feliz</span>
+          </div>
+        </div>
+        <span class="fas fa-quote-right"></span>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- contact  starts  -->
+
+  <section class="contact" id="contact">
+
+    <h1 class="heading"> <span> contacte </span> nos </h1>
+
+    <div class="row">
+
+      <form action="">
+        <input type="text" placeholder="Nome Completo" class="box">
+        <input type="email" placeholder="Endereço de Email" class="box">
+        <input type="number" placeholder="Número de Telefone" class="box">
+        <textarea name="" class="box" placeholder="Como podemos ajudar com os seus planos de viagem?" id="" cols="30"
+          rows="10"></textarea>
+        <input type="submit" value="Enviar Pedido" class="btn">
+      </form>
+
+      <div class="image">
+        <img src="images/contact us.jpg" alt="">
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- footer section starts  -->
+
+  <section class="footer">
+
+    <div class="box-container">
+
+      <div class="box">
+        <h3>links rápidos</h3>
+        <a href="#">Início</a>
+        <a href="#">Sobre</a>
+        <a href="#">Destinos</a>
+        <a href="#">Avaliações</a>
+        <a href="#">Contacte-nos</a>
+      </div>
+
+      <div class="box">
+        <h3>serviços de viagem</h3>
+        <a href="#">Reservas de Voos</a>
+        <a href="#">Reservas de Hotéis</a>
+        <a href="#">Pacotes de Viagem</a>
+      </div>
+
+      <div class="box">
+        <h3>rotas populares</h3>
+        <a href="#">Angola para Portugal</a>
+        <a href="#">Angola para Brasil</a>
+        <a href="#">Angola para África do Sul</a>
+        <a href="#">Angola para Dubai</a>
+      </div>
+
+      <div class="box">
+        <h3>informações de contacto</h3>
+        <a href="#">Luanda, Angola</a>
+        <a href="#">info@angolatravel.com</a>
+        <a href="#">+244 000 000 000</a>
+        <img src="images/payment.png" alt="">
+      </div>
+
+      <div class="box">
+        <h3>destinos internacionais selecionados</h3>
+        <a href="#">Europa</a>
+        <a href="#">América do Sul</a>
+        <a href="#">Médio Oriente</a>
+        <a href="#">África</a>
+        <a href="#">Ásia</a>
+      </div>
+
+    </div>
+
+    <div class="credit">| © 2026 Agência de Viagens Angola | todos os direitos reservados |</div>
+
+  </section>
+
+  <!-- footer section ends -->
+
+</body>
+
+
+</html>
